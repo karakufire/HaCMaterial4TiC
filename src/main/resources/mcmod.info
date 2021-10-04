@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "hacmat4tic",
+    "name": "Hac Materials for TiC",
+    "description": "Add TiC tool parts made from HaC's materials",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "karakufire"
+    ],
+    "credits": "karakufire",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,0 +1,21 @@
+fluid.nickelsilver.name=Molten Nickel Silver
+fluid.magnet.name=Molten Magnet
+fluid.stainless_steel.name=Molten Stainless Steel
+fluid.titanium_alloy.name=Molten Titanium Alloy
+fluid.tool_steel.name=Molten Tool Steel
+fluid.mangalloy.name=Molten Mangalloy
+
+material.chalcedony.name=Chalcedony
+material.nickelsilver.name=Nickel Silver
+material.magnet.name=Magnet
+material.stainless_steel.name=Stainless Steel
+material.titanium_alloy.name=Titanium Alloy
+material.tool_steel.name=Tool Steel
+material.mangalloy.name=Mangalloy
+
+modifier.krk.silktouch.name=Silk Touch
+modifier.krk.silktouch.desc=Keep from crack\nWorks same as Modifier's one.
+modifier.krk.magical.name=Magical
+modifier.krk.magical.desc=But not lyrical\nDeal additional 1/10 damages of dealt basic damage to mob as magic.
+modifier.krk.screening.name=Screening
+modifier.krk.screening.desc=Get glitterings!\nMined blocks will be screened occasionally. Luck can increase chance and quality of screening.
