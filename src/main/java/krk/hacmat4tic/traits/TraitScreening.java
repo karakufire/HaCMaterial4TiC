@@ -22,7 +22,6 @@ public class TraitScreening extends AbstractTrait {
     @Override
     public boolean canApplyTogether(IToolMod otherModifier) {
         return !(otherModifier.getIdentifier().equals(TinkerModifiers.modSilktouch.getIdentifier()) ||
-                otherModifier.getIdentifier().equals(TinkerModifiers.modLuck.getIdentifier()) ||
                 otherModifier.getIdentifier().equals(Traits.silktouch.getIdentifier()));
     }
 

@@ -131,6 +131,7 @@ public class HaCMaterial {
         NICKEL_SILVER.addItem("nuggetNickelsilver", 1, Material.VALUE_Nugget);
         NICKEL_SILVER.addItem("gearNickelsilver", 1, Material.VALUE_Ingot * 4);
         NICKEL_SILVER.setRepresentativeItem("ingotNickelsilver");
+        NICKEL_SILVER.addTrait(Traits.magical1, MaterialTypes.HEAD);
         NICKEL_SILVER.addTrait(TinkerTraits.established, MaterialTypes.HEAD);
         NICKEL_SILVER.addTrait(Traits.magical1);
 
@@ -142,9 +143,7 @@ public class HaCMaterial {
         MAGNET.addItem("gearMagnet", 1, Material.VALUE_Ingot * 4);
         MAGNET.setRepresentativeItem("ingotMagnet");
         MAGNET.addTrait(Traits.magnetic3, MaterialTypes.HEAD);
-        MAGNET.addTrait(TinkerTraits.magnetic2, MaterialTypes.HANDLE);
-        MAGNET.addTrait(TinkerTraits.magnetic2, MaterialTypes.EXTRA);
-        MAGNET.addTrait(TinkerTraits.magnetic2, MaterialTypes.BOW);
+        MAGNET.addTrait(TinkerTraits.magnetic2);
 
         STAINLESS_STEEL.setCastable(true);
         STAINLESS_STEEL.setCraftable(false);
@@ -153,35 +152,35 @@ public class HaCMaterial {
         STAINLESS_STEEL.addItem("nuggetStainlessSteel", 1, Material.VALUE_Nugget);
         STAINLESS_STEEL.addItem("gearStainlessSteel", 1, Material.VALUE_Ingot * 4);
         STAINLESS_STEEL.setRepresentativeItem("ingotStainlessSteel");
+        STAINLESS_STEEL.addTrait(TinkerTraits.heavy);
+        STAINLESS_STEEL.addTrait(TinkerTraits.dense);
         STAINLESS_STEEL.addTrait(TinkerTraits.sharp, MaterialTypes.HEAD);
         STAINLESS_STEEL.addTrait(TinkerTraits.heavy, MaterialTypes.HEAD);
-        STAINLESS_STEEL.addTrait(TinkerTraits.heavy, MaterialTypes.HANDLE);
-        STAINLESS_STEEL.addTrait(TinkerTraits.dense, MaterialTypes.HANDLE);
-        STAINLESS_STEEL.addTrait(TinkerTraits.heavy, MaterialTypes.EXTRA);
-        STAINLESS_STEEL.addTrait(TinkerTraits.dense, MaterialTypes.EXTRA);
-        STAINLESS_STEEL.addTrait(TinkerTraits.heavy, MaterialTypes.BOW);
-        STAINLESS_STEEL.addTrait(TinkerTraits.dense, MaterialTypes.BOW);
 
         TITANIUM_ALLOY.setCastable(true);
         TITANIUM_ALLOY.setCraftable(false);
         TITANIUM_ALLOY.addItem("ingotTitaniumAlloy", 1, Material.VALUE_Ingot);
         TITANIUM_ALLOY.addItem("blockTitaniumAlloy", 1, Material.VALUE_Block);
-        TITANIUM_ALLOY.addTrait(Traits.disassemble, MaterialTypes.HEAD);
         TITANIUM_ALLOY.addTrait(TinkerTraits.lightweight);
+        TITANIUM_ALLOY.addTrait(Traits.screening, MaterialTypes.HEAD);
+        TITANIUM_ALLOY.addTrait(TinkerTraits.lightweight, MaterialTypes.HEAD);
 
         TOOL_STEEL.setCastable(true);
         TOOL_STEEL.setCraftable(false);
         TOOL_STEEL.addItem("ingotToolSteel", 1, Material.VALUE_Ingot);
         TOOL_STEEL.addItem("blockTitaniumAlloy", 1, Material.VALUE_Block);
         TOOL_STEEL.setRepresentativeItem("ingotToolSteel");
-        TOOL_STEEL.addTrait(TinkerTraits.momentum, MaterialTypes.HANDLE);
         TOOL_STEEL.addTrait(TinkerTraits.dense);
+        TOOL_STEEL.addTrait(TinkerTraits.momentum, MaterialTypes.HANDLE);
+        TOOL_STEEL.addTrait(TinkerTraits.dense, MaterialTypes.HANDLE);
 
         MANGALLOY.setCastable(true);
         MANGALLOY.setCraftable(false);
         MANGALLOY.addItem("ingotMangalloy", 1, Material.VALUE_Ingot);
         MANGALLOY.addItem("blockMangalloy", 1, Material.VALUE_Block);
+        MANGALLOY.addTrait(TinkerTraits.dense);
         MANGALLOY.addTrait(Traits.silktouch, MaterialTypes.HEAD);
+        MANGALLOY.addTrait(TinkerTraits.dense, MaterialTypes.HEAD);
     }
 
     public static void integrateFluid() {

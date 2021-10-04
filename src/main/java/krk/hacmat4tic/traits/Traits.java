@@ -9,7 +9,7 @@ import java.util.Objects;
 
 public class Traits {
     public static final AbstractTrait magnetic3;
-    public static final AbstractTrait disassemble = new TraitScreening();
+    public static final AbstractTrait screening = new TraitScreening();
     public static final AbstractTrait silktouch = new TraitSilkTouch();
     public static final AbstractTrait magical1 = new TraitMagical(1);
     public static final AbstractTrait magical2 = new TraitMagical(2);

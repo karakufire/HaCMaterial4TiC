@@ -23,6 +23,6 @@ public class TraitSilkTouch extends AbstractTrait {
     public boolean canApplyTogether(IToolMod otherModifier) {
         return !(otherModifier.getIdentifier().equals(TinkerModifiers.modSilktouch.getIdentifier()) ||
                 otherModifier.getIdentifier().equals(TinkerModifiers.modLuck.getIdentifier()) ||
-                otherModifier.getIdentifier().equals(Traits.disassemble.getIdentifier()));
+                otherModifier.getIdentifier().equals(Traits.screening.getIdentifier()));
     }
 }
