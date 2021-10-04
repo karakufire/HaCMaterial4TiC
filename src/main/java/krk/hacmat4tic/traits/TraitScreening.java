@@ -1,10 +1,8 @@
 package krk.hacmat4tic.traits;
 
-import defeatedcrow.hac.api.recipe.ICrusherRecipe;
 import defeatedcrow.hac.api.recipe.ICrusherRecipeRegister;
 import defeatedcrow.hac.api.recipe.RecipeAPI;
 import defeatedcrow.hac.machine.MachineInit;
-import defeatedcrow.hac.main.MainInit;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.world.BlockEvent;
 import slimeknights.tconstruct.library.modifiers.IToolMod;

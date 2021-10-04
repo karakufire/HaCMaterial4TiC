@@ -3,7 +3,6 @@ package krk.hacmat4tic.traits;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.DamageSource;
-import slimeknights.tconstruct.library.traits.AbstractTrait;
 import slimeknights.tconstruct.library.traits.AbstractTraitLeveled;
 
 public class TraitMagical extends AbstractTraitLeveled {

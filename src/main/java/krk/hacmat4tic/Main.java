@@ -7,7 +7,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLInterModComms;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -26,7 +25,6 @@ public class Main {
 
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
-//        HaCMaterial.initMaterial();
         HaCMaterial.registerFluid();
         HaCMaterial.registerMaterial();
     }

@@ -15,16 +15,6 @@ import slimeknights.tconstruct.library.utils.HarvestLevels;
 import slimeknights.tconstruct.tools.TinkerTraits;
 
 public class HaCMaterial {
-    // Metals
-    // - Nickel Silver
-    // - Magnet ... Magnet III
-    // - Stainless Steel
-    // - Titanium Alloy
-    // - Tool Steel ...
-    // - Mangalloy ... silk touch
-    //
-    // Gems
-    // - Chalcedony
 
     public static final Material CHALCEDONY = new Material("chalcedony", 0x52FFEE);
     public static final Material NICKEL_SILVER = new Material("nickelsilver", 0xA9E1DC);
