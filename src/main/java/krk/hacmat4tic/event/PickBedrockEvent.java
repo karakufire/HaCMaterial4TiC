@@ -30,17 +30,10 @@ public class PickBedrockEvent {
 
     @SubscribeEvent
     public static void onRightClick(PlayerInteractEvent.RightClickBlock event) {
-        FMLLog.log.info("[HACMAT4TIC] Test: Hey, I am rightclick event running test!");
         EntityPlayer player = event.getEntityPlayer();
         if (player == null) return;
-
         ItemStack stack = player.getHeldItemMainhand();
-
         if (!isTiCStoneMiner(stack)) return;
-
-        FMLLog.log.info(stack.getItem());
-        FMLLog.log.info(ToolHelper.getHarvestLevelStat(stack));
-
         if (ToolHelper.getHarvestLevelStat(stack) < 4) return;
         BlockPos pos = event.getPos();
         IBlockState bs = event.getWorld().getBlockState(pos);
