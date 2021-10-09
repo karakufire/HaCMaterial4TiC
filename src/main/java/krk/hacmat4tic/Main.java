@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class Main {
     public static final String MOD_ID = "hacmat4tic";
     public static final String MOD_NAME = "HaCMaterial4TiC";
-    public static final String MOD_VERSION = "1.00";
+    public static final String MOD_VERSION = "1.10-dev";
     public static final String DEPENDENCIES
             = "required-after:tconstruct;"
             + "required-after:dcs_climate;";
