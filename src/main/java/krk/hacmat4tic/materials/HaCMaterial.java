@@ -34,7 +34,7 @@ public class HaCMaterial {
     public static void registerMaterial() {
         TinkerRegistry.addMaterial(CHALCEDONY);
         TinkerRegistry.addMaterialStats(CHALCEDONY,
-                new HeadMaterialStats(36, 10.0f, 10f, HarvestLevels.OBSIDIAN),
+                new HeadMaterialStats(36, 10.0f, 10f, HarvestLevels.COBALT),
                 new HandleMaterialStats(1.0f, 24),
                 new ExtraMaterialStats(12));
         TinkerRegistry.addMaterialStats(NICKEL_SILVER,
@@ -57,12 +57,12 @@ public class HaCMaterial {
                 new ExtraMaterialStats(311),
                 new BowMaterialStats(0.6f, 2.5f, 5.5f));
         TinkerRegistry.addMaterialStats(TOOL_STEEL,
-                new HeadMaterialStats(600, 9.5f, 20f, 6),
+                new HeadMaterialStats(600, 9.5f, 20f, 5),
                 new HandleMaterialStats(1.7f, 450),
                 new ExtraMaterialStats(310),
                 new BowMaterialStats(1.0f, 3.5f, 4.9f));
         TinkerRegistry.addMaterialStats(MANGALLOY,
-                new HeadMaterialStats(600, 3.8f, 17.8f, 7),
+                new HeadMaterialStats(600, 3.8f, 17.8f, 5),
                 new HandleMaterialStats(1.6f, 400),
                 new ExtraMaterialStats(221),
                 new BowMaterialStats(0.3f, 1.1f, -0.8f));
